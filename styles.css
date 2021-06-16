@@ -1,0 +1,20 @@
+body {
+    background-color: blueviolet;
+    background-image:url('https://www.google.com.mx/search?q=code+girl&tbm=isch&ved=2ahUKEwimub3E6JzxAhUTfqwKHcI8DmUQ2-cCegQIABAA&oq=code+girl&gs_lcp=CgNpbWcQAzICCAAyAggAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHlCiKFiiKGD5K2gAcAB4AIABrAKIAawCkgEDMy0xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=cEfKYKbBCpP8sQXC-bioBg&bih=635&biw=1366&hl=es#imgrc=yNUdLswMcZhpbM&imgdii=s8qAsMmtSsuxHM');
+}
+
+h1 {
+    color: rgb(202, 52, 202);
+    text-align: center;
+}
+
+p {
+    color: deeppink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+button {
+    color: midnightblue;
+    background-color: orchid;
+}

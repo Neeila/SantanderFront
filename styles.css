@@ -1,20 +1,83 @@
 body {
-    background-color: blueviolet;
-    background-image:url('https://www.google.com.mx/search?q=code+girl&tbm=isch&ved=2ahUKEwimub3E6JzxAhUTfqwKHcI8DmUQ2-cCegQIABAA&oq=code+girl&gs_lcp=CgNpbWcQAzICCAAyAggAMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB4yBggAEAcQHlCiKFiiKGD5K2gAcAB4AIABrAKIAawCkgEDMy0xmAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=cEfKYKbBCpP8sQXC-bioBg&bih=635&biw=1366&hl=es#imgrc=yNUdLswMcZhpbM&imgdii=s8qAsMmtSsuxHM');
-}
-
-h1 {
-    color: rgb(202, 52, 202);
+    background-color: #e28da9;
+    background-image: url('https://pro2-bar-s3-cdn-cf.myportfolio.com/67cf45ca-338d-4fd0-943b-32d96162976a/b7b52d14-b827-4c3a-906f-3b94fa13f35f_rw_1920.png');
+  }
+  
+  h1 {
+    color: #ce1d67;
     text-align: center;
-}
-
-p {
-    color: deeppink;
-    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  p {
+    color: #7586d3cc;
+    font-family: verdana;
     font-size: 20px;
-}
+  }
+  
+  button {
+    color: rgb(224, 94, 196);
+    background-color: #771f73;
+  }
+  
+  .header {
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0;
+    height: 45px;
+    font-family: sans-serif;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  .header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+  }
+  
+  .logo {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+  }
+  
+  .actions {
+    width: 15%;
+    text-align: right;
+    font-size: 14px;
+  }
 
-button {
-    color: midnightblue;
-    background-color: orchid;
-}
+  .menu-item {
+    display: inline;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+
+  .actions > * {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+
+  .actions a {
+    color: #67b54b;
+  }
+  
+  .actions button {
+    color: white;
+    background-color: #67b54b;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border: 0;
+    border-radius: 5px;
+  }

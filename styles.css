@@ -9,13 +9,13 @@ body {
   font-family: "Tahoma", sans-serif;
 }
 
-.secheader {
+/* .secheader {
   position: fixed;
   background-color: white;
   top: 0;
   left: 0;
   right: 0;
-}
+} */
 
 .header {
   margin: 10px 10px 0 30px;
@@ -521,12 +521,117 @@ figure {
   text-decoration: none;
 }
 
+/* FOOTER */
+
+.blog .title, .footer h2 {
+  color: #025157;
+  font-family: "Alegreya", serif;
+}
+
+.h2 {
+  font-size: 2rem;
+}
+
+.h2 , .h4 {
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+h2 , h4 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+}
+
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+}
+
+button {
+  background-color: #025157;
+  color: #fff;
+  border: none;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 6px 20px;
+  margin-left: -10px;
+}
+
+input, button {
+  height: 100%;
+  border-radius: 8px;
+}
+
+[type=button], [type=reset], [type=submit], button {
+  -webkit-appearance: button;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, input {
+  overflow: visible;
+}
+
+button, input, optgroup, select, textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button {
+  border-radius: 0;
+}
+
+.footer h4 {
+  text-transform: uppercase;
+  color: #025157;
+  font-weight: 700;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+h4 {
+  color: #46484c;
+  font-family: "Slabo 27px", serif;
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.h4, h4 {
+  font-size: 1.5rem;
+}
+
+.footer ul li a {
+  color: #4a4a4a;
+}
+
+.footer ul li {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+ul {
+  list-style-type: disc;
+}
+
+
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar,
+  /* .navbar,
   .divactions {
     display: none;
-  }
+  } */
   h1 {
     font-size: 30px;
     text-align: center;
@@ -567,23 +672,18 @@ figure {
   }
  } 
 
+ .card-group{
+   margin-top: 50px;
+ }
+
 /** dispositivos pequeños en vista landscape (horizontal) */
-@media (min-width: 576px) and (max-width: 767px) {
-  
-}
+@media (min-width: 576px) and (max-width: 767px) {}
 
 /** dispositivos medianos (tablets) */
-@media (min-width: 768px) and (max-width: 991px) {
-  
-}
+@media (min-width: 768px) and (max-width: 991px) {}
 
 /** dispositivos grandes (desktops) */
-@media (min-width: 992px) and (max-width: 1199px) {
-  
-}
+@media (min-width: 992px) and (max-width: 1199px) {}
 
 /** dispositivos extra grandes (monitores grandes, tvs) */
-@media (min-width: 1200px) {
-  
-}
-
+@media (min-width: 1200px) {}

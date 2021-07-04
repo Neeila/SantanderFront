@@ -65,7 +65,7 @@ body {
 }
 
 .secheader .divactions button {
-  color: white;
+  color: #67b54b;
   background-color: #67b54b;
   padding: 12px 14px 12px 14px;
   border: 0;
@@ -86,10 +86,12 @@ h1 {
 }
 
 h5 {
-  color: #303636;
-  font-family: "Constantia", serif;
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 30px;
+    line-height: 36px;
+    font-family: "Alegreya", serif;
+    color: #025157;
+    font-weight: 400;
+    text-align: center;
 }
 
 p {
@@ -521,30 +523,47 @@ figure {
   text-decoration: none;
 }
 
-/* FOOTER */
+.home-people {
+  background-image: url(https://getmatcha.com/wp-content/themes/getmatcha/css/../img/home_people.png);
+  background-position: center;
+  background-size: cover;
+  background-color: white;
+  height: 350px;
+}
 
-.blog .title, .footer h2 {
-  color: #025157;
+/* HOME PEOPLE */
+.try-it {
+  padding: 5% 5% 2%;
+  background-color: #96d178;
+  margin-top: -30px;
+}
+
+.text-center {
+  text-align: center!important;
+}
+
+.try-it form {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+form {
+  height: 55px;
+}
+
+.try-it h2 {
+  Font-size: 60px;
+  line-height: 36px;
   font-family: "Alegreya", serif;
+  color: #025157;
+  font-weight: 800;
+  text-align: center;
 }
 
-.h2 {
-  font-size: 2rem;
-}
-
-.h2 , .h4 {
-  margin-bottom: .5rem;
+.try-it p {
+  color: #ffffff;
+  font-size: 14px;
   font-weight: 500;
-  line-height: 1.2;
-}
-
-h2 , h4 {
-  margin-top: 0;
-  margin-bottom: .5rem;
-}
-
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-  cursor: pointer;
 }
 
 button {
@@ -562,10 +581,6 @@ input, button {
   border-radius: 8px;
 }
 
-[type=button], [type=reset], [type=submit], button {
-  -webkit-appearance: button;
-}
-
 button, select {
   text-transform: none;
 }
@@ -581,49 +596,7 @@ button, input, optgroup, select, textarea {
   line-height: inherit;
 }
 
-button {
-  border-radius: 0;
-}
 
-.footer h4 {
-  text-transform: uppercase;
-  color: #025157;
-  font-weight: 700;
-  font-size: 13px;
-  font-family: sans-serif;
-}
-
-h4 {
-  color: #46484c;
-  font-family: "Slabo 27px", serif;
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.h4, h4 {
-  font-size: 1.5rem;
-}
-
-.footer ul li a {
-  color: #4a4a4a;
-}
-
-.footer ul li {
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
-li {
-  text-align: -webkit-match-parent;
-}
-
-.footer ul {
-  list-style: none;
-}
-
-ul {
-  list-style-type: disc;
-}
 
 
 /** dispositivos móviles en vista viewport (vertical) */
